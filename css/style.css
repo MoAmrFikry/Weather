@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-image: url(../img/vecteezy_beautiful-pink-mountain-silhouette-landscape-with-fog-and_7162562-1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+
+}
+.h1-div{
+    width: 32%;
+    margin: auto;   
+ 
+ }
+
+.home .home-1{
+    width: 500px;
+    height: 580px;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(15px);
+
+
+
+}
+input{
+    
+    background-color: transparent;
+    border: 0px ;
+    border-bottom: 1px solid white;
+    width: 80%;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+input:focus{
+    
+   outline: none;
+}
+.search-btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+   position: relative;
+   top: 15px;
+   left: 25px;
+    font-size: 30px;
+}
+.content{
+    display: flex;
+    justify-items: center;
+}
+.location{
+    font-size: 40px;
+    font-weight: 700;
+}
+.Deg{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.humdity{
+    width: 13%;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.windy{
+    width: 35px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+@media only screen and  (max-width:500px)  {
+    .home{
+        background-image: url(../img/vecteezy_beautiful-pink-mountain-silhouette-landscape-with-fog-and_7162562-1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+    }
+    .h1-div{
+        width: 75%;
+        margin: auto;   
+     
+     } 
+.home .home-1{
+    width: 400px;
+    height: 480px;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(6px)
+}
+
+}
